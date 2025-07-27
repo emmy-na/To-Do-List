@@ -1,0 +1,109 @@
+html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(231, 240, 240);
+        margin: 0;
+      }
+      #box {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding: 40px 20px;
+        gap: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgb(215, 212, 212);
+        background-color: white;
+        width: fit-content;
+        height: fit-content;
+        min-width: 100px;
+        max-width: 400px;
+        min-height: 200px;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 20px;
+      }
+      nav img {
+        width: 20px;
+        height: 95%;
+        padding: 0px 10px;
+      }
+      div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+
+      }
+      .insertion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+         gap: 10px; 
+      }
+      #inputinsertion {
+        width: 65%;
+        height: 100%;
+        border-radius: 10%;
+        height: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+        border-radius: 5px;
+      }
+
+      #Ajouter {
+        color: white;
+        background-color: blue;
+        border: none;
+          width: 35%;
+        height: 100%;
+        border-radius: 10%;
+        height: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+        border-radius: 5px;
+      }
+      #Ajouter:hover {
+        background-color: red;
+        color: beige;
+      }
+      .list {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin: 0px;
+        padding: 0px;
+        gap: 0;
+      }
+      #listul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        max-width: 100%;
+        min-width: 300px;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+      }
+       emoji-picker {
+    --emoji-size: 1rem;
+    --num-columns: 6;
+    --emoji-padding: 0.25rem;
+    height: 150px;
+    width: 100%;
+  }
